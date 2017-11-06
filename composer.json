@@ -1,6 +1,7 @@
 {
-    "name": "mati/acf-tabbed-fc-fields",
+    "name": "codelight-eu/acf-tabbed-fc-fields",
     "description": "Flexible Content Fields in tabbed interface",
+    "type": "wordpress-plugin",
     "authors": [
         {
             "name": "Mati Kärner",
