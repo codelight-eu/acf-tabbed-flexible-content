@@ -1,8 +1,7 @@
 # user generated
 assets/build/dev
-assets/src/bower_components
+assets/src
 node_modules/
-vendor/
 
 # dot files
 .sass-cache
@@ -10,3 +9,8 @@ vendor/
 .buildpath
 .project
 .settings
+Gruntfile.js
+bower.json
+package.json
+package-lock.json
+.bowerrc
