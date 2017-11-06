@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: ACF Tabbed Flexible Content Fields
+ * Plugin Name: ACF Tabbed Flexible Content
  * Version: 0.1
  * Description: Flexible Content Fields in tabbed interface
  * Author: Mati Kärner
