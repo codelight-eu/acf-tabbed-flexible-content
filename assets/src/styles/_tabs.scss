@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import "jquery-ui-scss/assets/sass/variables";
+@import "jquery-ui-scss/assets/sass/mixins";
+
+@import "jquery-ui-scss/assets/sass/core/helpers";
+@import "jquery-ui-scss/assets/sass/core/widgets";
+@import "jquery-ui-scss/assets/sass/core/states";
+@import "jquery-ui-scss/assets/sass/core/icons";
+@import "jquery-ui-scss/assets/sass/core/corner";
+
+@import "jquery-ui-scss/assets/sass/components/draggable";
+@import "jquery-ui-scss/assets/sass/components/resizable";
+@import "jquery-ui-scss/assets/sass/components/selectable";
+@import "jquery-ui-scss/assets/sass/components/sortable";
+
+@import "jquery-ui-scss/assets/sass/widgets/tabs";
+
+.acf-flexible-content  {
+
+  .acf-hl {
+    clear: both;
+  }
+	
+  .ui-tabs {
+    display: table;
+    table-layout: fixed;
+    padding: 0;
+    overflow: visible;
+    font: inherit;
+    border: $ui-tabs-border;
+    margin-bottom: 15px;
+    
+    .ui-tabs-nav {
+      display: table-cell;
+      border: none;
+      vertical-align: top;
+      padding: 0;
+
+      > li {
+        float: left;
+        display: block;
+        clear: left;
+        position: relative;
+        margin: 0 -1px 0 0;
+        padding: 0;
+        overflow: hidden;
+        width: $ui-tabs-nav-left-offset;
+        @include ui-transition($ui-tabs-tab-transition);
+        border: none;
+        border-bottom: $ui-tabs-border;
+        border-radius: $ui-border-radius;
+        
+        &:last-child {
+            margin-bottom: 40px;
+        }
+
+        a {
+          display: block;
+          box-sizing: border-box;
+          width: 100%;
+          padding: $ui-tabs-padding;
+         
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        &.ui-tabs-active,
+        &.ui-state-disabled,
+        &.ui-tabs-loading {
+          .ui-tabs-anchor {
+            cursor: arrow;
+          }
+        }
+        
+        &.ui-tabs-active {
+          border-right: 1px solid white;
+          z-index: 1;
+        }
+
+        &.ui-sortable-helper {
+          border: $ui-border-width dashed $ui-gray;
+        }
+      }
+    }
+    
+    .ui-tabs-panel {
+      display: table-cell;
+      overflow: visible;
+      box-sizing: border-box;
+      border-left: $ui-tabs-border;
+      padding: 0px;   
+      width: 100%;
+
+      .layout {
+        border: none;
+
+        .acf-fields {
+	      .acf-field {
+	        border: none;
+	        
+	        &::before {
+	           background: none;
+	           border: none;
+	        }
+	        
+	        .acf-label, .acf-input {
+	            width: 100%;
+	        }
+	        
+	        .acf-label {
+	           padding: 10px 12px 0px 12px;
+	        }
+          }
+         
+          .acf-tab-wrap.-top > ul {
+          	padding-top: 15px;
+          }
+        }
+       
+		.acf-fc-layout-controlls {
+			z-index: 1001;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# user generated
+assets/build/dev
+assets/src/bower_components
+node_modules/
+vendor/
+
+# dot files
+.sass-cache
+.DS_Store
+.buildpath
+.project
+.settings

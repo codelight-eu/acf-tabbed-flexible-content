@@ -1,0 +1,16 @@
+{
+    "name": "mati/acf-tabbed-fc-fields",
+    "description": "Flexible Content Fields in tabbed interface",
+    "authors": [
+        {
+            "name": "Mati Kärner",
+            "email": "mati@adaptive.ee"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "ACF_Tabbed_FC_Fields\\": "classes"
+        }
+    },
+    "require": {}
+}

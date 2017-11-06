@@ -1,0 +1,22 @@
+{
+  "name": "acf_tabbed_fc_fields",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Mati Kärner"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui-sass": "^5.0.5"
+  }
+}

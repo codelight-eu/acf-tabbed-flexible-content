@@ -1,0 +1,61 @@
+// Base
+// ---------------------------------------------------------
+$ui-border-radius:              0px;
+$ui-border-width:               1px;
+
+// Colors
+// ---------------------------------------------------------
+$ui-gray-darker:  #333;
+$ui-gray-dark:    #666;
+$ui-gray:         #aaa;
+$ui-gray-light:   #ddd;
+$ui-gray-lighter: #e9e9e9;
+
+$ui-text-color:   $ui-gray-darker;
+
+// Options
+// ---------------------------------------------------------
+$ui-enable-rounded:     false;
+
+// States
+// ---------------------------------------------------------
+$ui-states-border-width:            $ui-border-width;
+
+$ui-state-default-border-color:     #c5c5c5;
+$ui-state-default-background:       #f9f9f9;
+$ui-state-default-color:            #333333;
+
+$ui-state-hover-border-color:       #cccccc;
+$ui-state-hover-background:         #f7f7f7;
+$ui-state-hover-color:              #333333;
+
+$ui-state-focus-border-color:       $ui-state-hover-border-color;
+$ui-state-focus-background:         $ui-state-hover-background;
+$ui-state-focus-color:              $ui-state-hover-color;
+
+$ui-state-active-border-color:      #003eff;
+$ui-state-active-background:        #ffffff;
+$ui-state-active-color:             #333333;
+
+$ui-state-highlight-border-color:   #dad55e;
+$ui-state-highlight-background:     #fffa90;
+$ui-state-highlight-color:          #777620;
+
+$ui-state-error-border-color:       #f1a899;
+$ui-state-error-background:         #fddfdf;
+$ui-state-error-color:              #5f3f3f;
+
+// Tabs
+// ---------------------------------------------------------
+$ui-tabs-padding:           18px 12px;
+$ui-tabs-spacing:           0px;
+$ui-tabs-border:            1px solid $ui-gray-light;
+$ui-tabs-border-radius:     $ui-border-radius;
+
+$ui-tabs-nav-padding:       $ui-tabs-padding $ui-tabs-padding 0;
+$ui-tabs-nav-offset:        $ui-tabs-padding;
+$ui-tabs-nav-border-color:  #ddd;
+$ui-tabs-nav-border-width:  1px;
+$ui-tabs-nav-background:    #f9f9f9;
+$ui-tabs-nav-border-radius: $ui-border-radius;
+$ui-tabs-nav-left-offset:   220px;
