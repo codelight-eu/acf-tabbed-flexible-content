@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "ACF_Tabbed_FC_Fields\\": "classes"
+          "ACF_Tabbed_FC_Fields\\": "classes/"
         }
     },
     "require": {}
