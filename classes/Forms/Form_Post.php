@@ -36,7 +36,7 @@ class Form_Post extends \acf_form_post {
 	}
 	
 	protected function enqueueAssets() {
-		$script_debug = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG;
+		$script_debug = defined('ACF_SCRIPT_DEBUG') && ACF_SCRIPT_DEBUG;
 		$build_dir = 'build/' . ($script_debug ? 'dev' : 'dist');
 		
 		wp_enqueue_script ( 'jquery-ui-tabs' );
