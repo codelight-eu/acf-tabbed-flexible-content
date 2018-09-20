@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: ACF Tabbed Flexible Content
- * Version: 0.1
+ * Version: 1.2
  * Description: Flexible Content Fields in tabbed interface
  * Author: Mati Kärner
  * Author URI: www.adaptive.ee
